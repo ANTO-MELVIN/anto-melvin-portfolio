@@ -82,9 +82,9 @@ export default function App() {
               {SOCIALS.map((social, idx) => (
                 <a 
                   key={idx}
-                  href={social.url}
-                  target={social.url.startsWith('mailto') ? undefined : "_blank"}
-                  rel={social.url.startsWith('mailto') ? undefined : "noopener noreferrer"}
+                  href={social.platform === 'Email' ? `https://mail.google.com/mail/?view=cm&fs=1&to=${PERSONAL_INFO.email}` : social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`p-3 rounded-full bg-slate-900 border border-slate-700 hover:shadow-[0_0_15px_rgba(255,255,255,0.1)] transition-all group relative ${social.color || 'hover:border-primary hover:text-primary'}`}
                   aria-label={social.platform}
                 >
@@ -347,7 +347,7 @@ export default function App() {
               {SOCIALS.filter(s => s.platform !== 'GitHub').map((social, idx) => (
                   <TiltCard key={idx} className="w-full md:w-[280px]">
                       <a 
-                        href={social.platform === 'Email' ? `https://mail.google.com/mail/?view=cm&fs=1&to=${PERSONAL_INFO.email}` : social.url}
+                        href={social.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block h-full"

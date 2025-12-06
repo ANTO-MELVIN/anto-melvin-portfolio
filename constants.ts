@@ -39,7 +39,7 @@ export const PROFILE_IMAGES = {
 export const SOCIALS: SocialLink[] = [
   {
     platform: "Email",
-    url: "mailto:antomelvin@karunya.edu.in",
+    url: "https://mail.google.com/mail/?view=cm&fs=1&to=antomelvin@karunya.edu.in",
     icon: Mail,
     text: "antomelvin@karunya.edu.in",
     color: "hover:text-sky-500 hover:border-sky-500"
