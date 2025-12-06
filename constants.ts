@@ -230,12 +230,6 @@ export const CERTIFICATIONS: Certification[] = [
         year: "2025"
     },
     {
-        title: "CCBP 4.0 Academy Fellow",
-        issuer: "NextWave",
-        year: "2023 - Present"
-    },
-    
-    {
         title: "Enterprise Security in Practice",
         issuer: "IBM SkillsBuild",
         year: "2024-5"
@@ -264,7 +258,7 @@ export const CERTIFICATIONS: Certification[] = [
         title: "CCNA: Introduction to Networks",
         issuer: "Cisco",
         year: "2025"
-    },
+    }
     
 ];
 
