@@ -33,7 +33,7 @@ export const PERSONAL_INFO = {
 export const PROFILE_IMAGES = {
   hero: "/image/anto1.jpg", // Your main profile picture
   hover: "/image/antomain.jpg", // Hover version of profile picture
-  parallax: "public/image/portfolio-background.png" // Your background/action shot
+  parallax: "/image/portfolio-background.png" // Your background/action shot
 };
 
 export const SOCIALS: SocialLink[] = [
@@ -283,7 +283,7 @@ export const INTERNSHIPS: Experience[] = [
 export const EVENTS: EventItem[] = [
   {
     title: "IEEE Computer Science Society - VISUAL INTELLIGENCE",
-    role: "Program Lead",
+    role: "PROGRAM LEAD",
     description: "Visual Intelligence: The Rise of AI in Video Creation was a collaborative event organized by the School of Computer Science and Technology, the IEEE Computer Society, and ACM on September 4, 2025. Participants created AI-generated videos based on themes such as “Life and Legacy of Our Beloved Chancellor” and “AI for Humanity – Solving Global Challenges.” The event began with an expert session on prompt engineering and a live demo of AI video workflows. The hands-on competition allowed students to apply their creative and technical knowledge to produce impactful, theme-based videos. It enhanced their understanding of AI-driven multimedia tools and visual storytelling, encouraging innovation and digital creativity.",
     images: [
       "/image/aitoolsworkshop.jpg",
