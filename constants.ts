@@ -134,19 +134,20 @@ export const PROJECTS: Project[] = [
     status: "Ongoing"
   },
   {
-    title: "Air Ambulance",
-    description: "Emergency dispatch system optimization.",
-    category: "Web/App",
-    tech: ["Fullstack", "Maps API"],
+    title: "AR FIT",
+    description: "An AI-powered fashion assistant that provides personalized styling suggestions and a safe, interactive smart fitting experience",
+    category: "Fashion Technology",
+    tech: ["AI", "Computer Vision"],
     status: "Ongoing"
   },
   {
-    title: "Ventilated Patient Monitor",
-    description: "Eye-tracking-based emotion monitoring for ventilated patients.",
+    title: "Automatic speed reduction system",
+    description: "An AI-powered system that detects obstacles ahead and automatically reduces vehicle speed for safer driving.",
     category: "AI/ML",
-    tech: ["Eye-Tracking", "HealthTech"],
+    tech: ["Computer Vision", "ML"],
     status: "Ongoing"
   }
+  
 ];
 
 export const HACKATHONS: Project[] = [
@@ -169,6 +170,20 @@ export const HACKATHONS: Project[] = [
     description: "Meeting transcripts & automated reminders system.",
     category: "Hackathon",
     tech: ["AI", "Speech-to-Text"],
+    status: "Hackathon"
+  },
+  {
+    title: "GOOGLE Hackathon",
+    description: "AI that detects student stress in online discussions and offers timely mental-health support.",
+    category: "Hackathon",
+    tech: ["AI", "Flutter", "mongoDB"],
+    status: "Hackathon"
+  },
+  {
+    title: "i.Mobileothon 5.0 Hackathon",
+    description: "Road Hazard Detection & Real-Time Alerts.",
+    category: "Hackathon",
+    tech: ["AI", "Flutter", "COMPUTER VISION"," geolocation"],
     status: "Hackathon"
   },
   {
