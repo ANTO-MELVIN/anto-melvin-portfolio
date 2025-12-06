@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, Linkedin, Mail, ArrowDown, ExternalLink, Calendar, User, Award, CheckCircle, MessageCircle } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowDown, ExternalLink, Calendar, User, Award, CheckCircle, MessageCircle, Download } from 'lucide-react';
 import Navbar from './components/Navbar';
 import ThreeScene from './components/ThreeScene';
 import ProjectSlider from './components/ProjectSlider';
@@ -94,6 +94,17 @@ export default function App() {
                   </span>
                 </a>
               ))}
+            </motion.div>
+
+            <motion.div variants={fadeInUp} className="pt-2">
+              <a 
+                href="/cv/Anto_Melvin_CV.pdf" 
+                download="Anto_Melvin_CV.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 border border-slate-700 rounded-full text-white font-medium hover:bg-slate-800 hover:border-primary hover:text-primary transition-all shadow-lg hover:shadow-primary/20 transform hover:-translate-y-1"
+              >
+                <Download size={20} />
+                Download CV
+              </a>
             </motion.div>
           </motion.div>
           
