@@ -33,7 +33,7 @@ export const PERSONAL_INFO = {
 export const PROFILE_IMAGES = {
   hero: "/image/anto1.jpg", // Your main profile picture
   hover: "/image/antomain.jpg", // Hover version of profile picture
-  parallax: "/image/portfolio-background.png" // Your background/action shot
+  parallax: "public/image/portfolio-background.png" // Your background/action shot
 };
 
 export const SOCIALS: SocialLink[] = [
