@@ -31,9 +31,9 @@ export const PERSONAL_INFO = {
 
 // PLACEHOLDERS: Replace these URLs with your actual image URLs
 export const PROFILE_IMAGES = {
-  hero: "image/anto1.jpg", // Your main profile picture
-  hover: "image/antomain.jpg", // Hover version of profile picture
-  parallax: "image/portfolio%20background.png" // Your background/action shot
+  hero: "/image/anto1.jpg", // Your main profile picture
+  hover: "/image/antomain.jpg", // Hover version of profile picture
+  parallax: "/image/portfolio-background.png" // Your background/action shot
 };
 
 export const SOCIALS: SocialLink[] = [
@@ -286,9 +286,9 @@ export const EVENTS: EventItem[] = [
     role: "Program Lead",
     description: "Visual Intelligence: The Rise of AI in Video Creation was a collaborative event organized by the School of Computer Science and Technology, the IEEE Computer Society, and ACM on September 4, 2025. Participants created AI-generated videos based on themes such as “Life and Legacy of Our Beloved Chancellor” and “AI for Humanity – Solving Global Challenges.” The event began with an expert session on prompt engineering and a live demo of AI video workflows. The hands-on competition allowed students to apply their creative and technical knowledge to produce impactful, theme-based videos. It enhanced their understanding of AI-driven multimedia tools and visual storytelling, encouraging innovation and digital creativity.",
     images: [
-      "image/aitoolsworkshop.jpg",
-      "image/aitoolsworkshop3.jpg",
-      "image/aitoolsworkshop4.jpg"
+      "/image/aitoolsworkshop.jpg",
+      "/image/aitoolsworkshop3.jpg",
+      "/image/aitoolsworkshop4.jpg"
     ]
   },
   {
@@ -296,9 +296,9 @@ export const EVENTS: EventItem[] = [
     role: "PROGRAM LEAD",
     description: "The Free Medical Camp at Katteri, Coonoor on 14th September 2025, alongside IEEE CS, ACM, the Cultural Heritage Club, and SEESHA Hospital.The camp marked a dual celebration — the 63rd birthday of Dr. Paul Dhinakaran and the 40th year of Karunya Institute of Technology and Sciences. Nearly 86 individuals benefited from general health check-ups, consultations, counseling, and free medicines. What inspired me most was the collaborative spirit — students, faculty, doctors, and community members all coming together to make an impact. This initiative reinforced how technical societies like IEEE can extend beyond innovation, reaching communities with compassion and care.",
     images: [
-      "image/ieeemedicalcamp.jpg",
-      "image/ieeemedicalcamp2.jpg",
-      "image/ieeemedicalcamp3.jpg"
+      "/image/ieeemedicalcamp.jpg",
+      "/image/ieeemedicalcamp2.jpg",
+      "/image/ieeemedicalcamp3.jpg"
     ]
   },
   {
@@ -306,9 +306,9 @@ export const EVENTS: EventItem[] = [
     role: "PROGRAM LEAD",
     description: "Network Quest was an interactive treasure-hunt-style event organized by the IEEE Computer Society to test participants’ analytical and problem-solving skills. Teams of four navigated through various checkpoints by scanning QR codes, each unlocking a challenge such as riddles, logic puzzles, or technical questions. Solving one clue revealed the next location, leading teams closer to the final destination. The event promoted teamwork, quick thinking, and creativity in a fun, gamified setting. Participants enhanced their collaboration, leadership, and communication skills while solving each level’s challenge. The winning team was determined based on both completion time and accuracy.",
     images: [
-      "image/WORKSHOP.jpg",
-      "image/WORKSHOP2.jpg",
-      "image/WORKSHOP4.jpeg"
+      "/image/WORKSHOP.jpg",
+      "/image/WORKSHOP2.jpg",
+      "/image/WORKSHOP4.jpeg"
     ]
   }
 ];
