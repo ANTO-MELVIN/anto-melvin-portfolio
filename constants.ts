@@ -232,7 +232,7 @@ export const CERTIFICATIONS: Certification[] = [
     {
         title: "Enterprise Security in Practice",
         issuer: "IBM SkillsBuild",
-        year: "2024-5"
+        year: "2025"
     },
     {
         title: "Exploratory Data Analysis (EDA)",
