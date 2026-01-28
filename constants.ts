@@ -22,7 +22,7 @@ import { Project, Experience, SkillCategory, SocialLink, EventItem, Certificatio
 export const PERSONAL_INFO = {
   name: "Anto Melvin A",
   role: "Computer Science Engineer",
-  tagline: "Building the future with IoT, Gen AI, ML and Fullstack Solutions. FOUNDER & CEO OF CONNECTIONS" ,
+  tagline: "Building the future with IoT, Gen AI, ML and Fullstack Solutions. FOUNDER OF CONNECTIONS" ,
   location: "Coimbatore, India",
   email: "antomelvin@karunya.edu.in",
   phone: "9487868172",
