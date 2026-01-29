@@ -295,6 +295,14 @@ export const INTERNSHIPS: Experience[] = [
   }
 ];
 
+export const CONFERENCES: Experience[] = [
+  {
+    role: "Participant",
+    company: "2026 Second International Conference on Intelligent Systems for Communication, IoT and Security (ICISCoIS)",
+    period: "2026"
+  }
+];
+
 export const EVENTS: EventItem[] = [
   {
     title: "IEEE Computer Science Society - VISUAL INTELLIGENCE",

@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, ArrowDown, ExternalLink, Calendar, User, Award,
 import Navbar from './components/Navbar';
 import ThreeScene from './components/ThreeScene';
 import ProjectSlider from './components/ProjectSlider';
-import { PERSONAL_INFO, SKILLS, PROJECTS, HACKATHONS, INTERNSHIPS, EDUCATION, SOCIALS, EVENTS, PROFILE_IMAGES, CERTIFICATIONS } from './constants';
+import { PERSONAL_INFO, SKILLS, PROJECTS, HACKATHONS, INTERNSHIPS, EDUCATION, SOCIALS, EVENTS, PROFILE_IMAGES, CERTIFICATIONS, CONFERENCES } from './constants';
 import TiltCard from './components/TiltCard';
 
 const ImageSlideshow = ({ images }: { images: string[] }) => {
@@ -238,7 +238,7 @@ export default function App() {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Journey So Far</h2>
             
             {/* Timeline Grid: Education & Internships */}
-            <div className="grid md:grid-cols-2 gap-12 md:gap-20 mb-24">
+            <div className="grid md:grid-cols-3 gap-12 md:gap-20 mb-24">
                 <div className="flex flex-col items-center">
                     <h3 className="text-2xl font-bold mb-8 text-primary flex items-center justify-center gap-2">
                         Education
@@ -266,6 +266,22 @@ export default function App() {
                                 <h4 className="text-xl font-semibold text-white">{exp.role}</h4>
                                 <p className="text-slate-400">{exp.company}</p>
                                 <span className="text-sm text-slate-500 font-mono">{exp.period}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="flex flex-col items-center">
+                    <h3 className="text-2xl font-bold mb-8 text-purple-400 flex items-center justify-center gap-2">
+                        Conferences
+                    </h3>
+                    <div className="space-y-8 pl-8 border-l border-slate-800 w-full max-w-md">
+                        {CONFERENCES.map((conf, idx) => (
+                            <div key={idx} className="relative">
+                                <span className="absolute -left-[41px] top-2 w-4 h-4 bg-slate-900 border-2 border-purple-400 rounded-full"></span>
+                                <h4 className="text-xl font-semibold text-white">{conf.role}</h4>
+                                <p className="text-slate-400">{conf.company}</p>
+                                <span className="text-sm text-slate-500 font-mono">{conf.period}</span>
                             </div>
                         ))}
                     </div>
